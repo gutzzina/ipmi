@@ -3,13 +3,13 @@ let imagenX = 640 / 2, imagenY = 480 / 2, sonidoAr, imagenes = [], imagActual = 
 function preload() {
   soundFormats('mp3');
   sonidoAr = loadSound('data/sound.mp3'); 
-}
-function setup() {
-  createCanvas(640, 480);
   let imagenesNom = ['data/avatarIntro.jpeg', 'data/imagUno.jpeg', 'data/imagDos.jpeg', 'data/imagTres.jpeg'];
   for (let i = 0; i < imagenesNom.length; i++) { 
     imagenes[i] = loadImage(imagenesNom[i]);
   }
+}
+function setup() {
+  createCanvas(640, 480);
 }
 function draw() {
   image(imagenes[imagActual], 0, 0, 640, 480); 
