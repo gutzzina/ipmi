@@ -24,7 +24,7 @@ function mouseReleased() {
   if (!sonidoAr.isPlaying()) sonidoAr.play();
 }
 function mousePressed() {
-  const clickeo = 40; 
+  let clickeo = 40; 
   if (imagActual === 6) {
     if (mouseX < width / 2 && mouseY > height / 2) cambiarImagenes(imagenesSokka);
     else if (mouseX > width / 2 && mouseY < height / 2) cambiarImagenes(imagenesAang);
