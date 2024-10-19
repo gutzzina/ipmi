@@ -4,15 +4,15 @@ function opcionesIntro(imagActual) {
       botonesIntro();
       break;
     case 1:
-      dialogosTextos(guionIntro[0][0]); // Muestra el texto de la línea 1
+      dialogosTextos(guionIntro[0][0]); // texto de la línea 1
       mostrarMarcoFlecha();
       break;
     case 2:
-      dialogosTextos(guionIntro[0][1]); // Muestra el texto de la línea 2
+      dialogosTextos(guionIntro[0][1]); // texto de la línea 2
       mostrarMarcoFlecha();
       break;
     case 3:
-      dialogosTextos(guionIntro[0][2]); // Muestra el texto de la línea 3
+      dialogosTextos(guionIntro[0][2]); // texto de la línea 3
       mostrarMarcoFlecha();
       break;
     case 4:
