@@ -72,15 +72,15 @@ function opcionAangBifu(imagActual) {
       mostrarMarcoFlecha();
       break;
     case 14:
-      dialogosTextos(guionIntro[3][4]);
+      dialogosTextos(guionIntro[3][3]);
       mostrarMarcoFlecha();
       break;
     case 15:
-      dialogosTextos(guionIntro[3][5]);
+      dialogosTextos(guionIntro[3][4]);
       mostrarMarcoFlecha();
       break;
     case 16:
-      dialogosTextos(guionIntro[3][6]);
+      dialogosTextos(guionIntro[3][5]);
       mostrarMarcoFlecha();
       break;
     case 17:
@@ -92,7 +92,7 @@ function opcionAangBifu(imagActual) {
       mostrarMarcoFlecha();
       break;
     case 19:
-      dialogosTextos(guionIntro[3][0]);
+      dialogosTextos(guionIntro[3][8]);
       mostrarMarcoFlecha();
       break;
     case 20:
